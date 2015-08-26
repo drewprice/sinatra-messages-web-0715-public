@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'thin'
@@ -8,5 +8,5 @@ gem 'sinatra-contrib'
 gem 'sinatra-reloader'
 gem 'pry'
 
-gem 'activerecord', :require => "active_record"
+gem 'activerecord', require: 'active_record'
 gem 'sqlite3'
